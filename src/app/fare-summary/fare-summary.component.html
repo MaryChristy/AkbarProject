@@ -1,0 +1,45 @@
+<div class=fare-summary>
+    <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+                <mat-panel-title style="color: black;"> Base Fare </mat-panel-title>
+                <h5 style="color: black;">2000</h5>
+            </mat-expansion-panel-header>
+            <ul>
+                <li>
+                    <p>Adult(2X5701)</p>
+                </li>
+                <li>
+                    <h5>1000</h5>
+                </li>
+            </ul>
+            <ul>
+               <li>
+                <p>Child(1X5564)</p>
+               </li>
+               <li>
+                <h5>1000</h5>
+               </li>
+            </ul>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title style="color: black;"> Tax and Charges</mat-panel-title>
+                <h5 style="color: black;">2000</h5>
+            </mat-expansion-panel-header>
+            <ul>
+                <li>
+                    <p>2X5701</p> 
+                </li>
+                <li> 
+                    <h5>1000</h5>
+                </li>
+            </ul>
+        </mat-expansion-panel>
+    </mat-accordion>
+    <div class="total-amount">
+        <h3  style="color: black;">Total Amount:
+        </h3>
+        <h3>2800</h3>
+    </div>
+</div>
